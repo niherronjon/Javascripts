@@ -9,3 +9,16 @@ if (marks >= 80)
 } else {
   console.log("Fail");
 }
+
+
+
+//  Switch 
+
+
+let grade = 'B';
+
+switch (grade) {
+  case 'A': console.log("Excellent"); break;
+  case 'B': console.log("Good"); break;
+  default: console.log("Try Again");
+}
