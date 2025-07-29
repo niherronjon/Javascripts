@@ -4,7 +4,8 @@ class Student {
         this.roll = roll;
     }
 
-    display() {
+    display()
+    {
         return `Name: ${this.name}, Roll: ${this.roll}`;
     }
 }
